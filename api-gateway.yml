@@ -22,7 +22,7 @@ spring:
         - id: auth-service-route
           uri: lb://auth-service
           predicates:
-            - Path=/v1/api/auth/**, /v1/api/users/**, /v1/api/permissions/**, /v1/api/roles/**
+            - Path=/v1/api/auth/**, /v1/api/users/**, /v1/api/permissions/**, /v1/api/roles/**, /v1/api/profiles/**
           filters:
             - JwtAuthentication
 
