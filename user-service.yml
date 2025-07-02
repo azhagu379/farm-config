@@ -1,6 +1,0 @@
-server:
-  port: 9001 # A default port for the User Service
-
-# Some custom property
-greeting:
-  message: "Hello from User Service config!"
